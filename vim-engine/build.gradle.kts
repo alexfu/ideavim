@@ -55,6 +55,8 @@ dependencies {
     compileOnly(project(":annotation-processors"))
     compileOnly("org.jetbrains.kotlinx:kotlinx-serialization-json-jvm:$kotlinxSerializationVersion")
 
+    implementation(kotlin("reflect"))
+
     testImplementation("org.mockito.kotlin:mockito-kotlin:5.3.1")
 }
 
